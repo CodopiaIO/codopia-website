@@ -7,12 +7,12 @@ body {
 }
 
 a {
-  color: #00C1E0;
+  color: #5A0B9C;
   text-decoration: none;
 }
 
 a:hover {
-  color: #73c5eb;
+  color: #5A0B9C;
   text-decoration: none;
 }
 
@@ -689,7 +689,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #00C1E0;
+  color: #5A0B9C;
 }
 
 .skills .progress .skill .val {
@@ -706,7 +706,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #080420;
+  background-color: #5A0B9C;
 }
 
 /*--------------------------------------------------------------
@@ -724,7 +724,7 @@ section {
 }
 
 .services .icon-box .icon i {
-  color: #00C1E0;
+  color: #5A0B9C;
   font-size: 36px;
   transition: 0.3s;
 }
@@ -751,7 +751,7 @@ section {
 }
 
 .services .icon-box:hover h4 a {
-  color: #00C1E0;
+  color: #5A0B9C;
 }
 
 /*--------------------------------------------------------------
