@@ -1515,16 +1515,23 @@ section {
   padding-top: 30px;
   padding-bottom: 30px;
   color: #fff;
-}
-
-#footer .copyright {
-  float: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 @media (max-width: 768px) {
   #footer .footer-bottom {
     padding-top: 20px;
     padding-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #footer .copyright,
+  .social-links {
+    text-align: center;
+    padding-bottom: 15px;
   }
 
   #footer .copyright {
@@ -1535,6 +1542,24 @@ section {
   #footer .credits {
     padding-top: 4px;
   }
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.social-links li a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.social-links li a:hover {
+  color: #00C1E0;
 }
 
 #shadow-host-companion {
